@@ -52,7 +52,7 @@ jobs:
           LETZPLAY_PASSWORD: ${{ secrets.LETZPLAY_PASSWORD }}
           CI: true
           PYTHONUNBUFFERED: 1
-        run: python tennis_booking_v2.py
+        run: python tennis_booking_v3.py
       
       - name: ✅ Sucesso!
         if: success()
